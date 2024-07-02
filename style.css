@@ -32,9 +32,18 @@
     width: 100%;
 }
 .left .overlay{
-    background-color: rgba(255, 182, 182, 0.363)
+    background-color: rgba(255, 182, 182, 0.363);
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    align-content: center;
+
 }
 .right .overlay{
     background-color: rgba(184, 223, 241, 0.521);
+    justify-content: center;
+    font-size: large;
+    align-content: center;
+
 }
 
