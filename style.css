@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    color: aqua;
+}
+
+.left{
+    height: 100vh;
+    width: 50vw;
+    background-color: blueviolet;
+    display: inline-block;
+    background-image: url("https://images.unsplash.com/photo-1468413253725-0d5181091126");
+    background-size: cover;
+}
+
+.right{
+    height: 100vh;
+    width: 50vw;
+    background-color: brown;
+    display: inline-block;
+    background-image: url("https://images.unsplash.com/photo-1641755571480-edf1aff92868?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDMwfGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D");
+    background-size: cover;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+}
+.left .overlay{
+    background-color: rgba(255, 182, 182, 0.363)
+}
+.right .overlay{
+    background-color: rgba(184, 223, 241, 0.521);
+}
+
