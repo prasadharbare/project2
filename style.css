@@ -1,49 +1,51 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
 }
 
-.main{
+main {
     height: 100vh;
     width: 100vw;
-    color: aqua;
 }
 
-.left{
-    height: 100vh;
-    width: 50vw;
-    background-color: blueviolet;
-    display: inline-block;
-    background-image: url("https://images.unsplash.com/photo-1468413253725-0d5181091126");
-    background-size: cover;
-}
-
-.right{
-    height: 100vh;
-    width: 50vw;
-    background-color: brown;
-    display: inline-block;
-    background-image: url("https://images.unsplash.com/photo-1641755571480-edf1aff92868?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDMwfGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D");
-    background-size: cover;
-}
-.overlay{
+.left {
     height: 100%;
-    width: 100%;
+    width: 50%;
+    display: inline-block;
+    background-color: blueviolet;
+    background-image: url("jungle.jpg");
+    background-size: cover;
 }
-.left .overlay{
-    background-color: rgba(255, 182, 182, 0.363);
+
+.right {
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    background-color: brown;
+    background-image: url("city.jpg");
+    background-size: cover;
+}
+
+.left .overlay {
     display: flex;
     justify-content: center;
-    font-size: large;
-    align-content: center;
+    font-size: 100px;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
 
 }
-.right .overlay{
-    background-color: rgba(184, 223, 241, 0.521);
+
+.right .overlay {
+    display: flex;
     justify-content: center;
-    font-size: large;
-    align-content: center;
+    font-size: 100px;
+    align-items: center;
+    font-family: :Georgia, 'Times New Roman', Times, serif
 
 }
 
+.overlay {
+    margin-top: 300px;
+    color: #caedf7;
+    margin-left: 100px;
+}
